@@ -177,7 +177,7 @@ def check_valid(filename):
     x = i.split(" ")
     formula(x)
     if len(stack) == 1 and stack[0] == "formula":
-      print(f"{i} válido")
+      print(f"{i} válida")
     else:
       print(f"{i} inválida")
     stack.clear()
