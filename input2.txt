@@ -1,0 +1,12 @@
+10
+)
+(
+aaa
+(\neg \neg)
+(\neg a)
+(\neg T)
+(\neg C)
+(\vee a b)
+(\vee a232 b323)
+(\wedge c d)
+(\rightarrow e f)

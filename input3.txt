@@ -1,0 +1,11 @@
+10
+(\leftrightarrow a b)
+(\leftrightarrow (\leftrightarrow a b) (\neg c))
+(\leftrightarrow (\leftrightarrow T b) (\neg c))
+(\leftrightarrow (\leftrightarrow a b) (\neg c)
+(\leftrightarrow (\leftrightarrow a b) (\neg A))
+(\leftrightarrow (\leftrightarrow Ta b) (\neg c))
+(\leftrightarrow (\wedge (\vee T (\neg abcdefghijklmnopqrstuvwxyz1234567890)) b) (\neg c))
+(\leftrightarrow (\wedge (\vee T (\neg abcdefghijklmnopqrstuvwxyz1234567890A)) b) (\neg c))
+(\leftrightarrow (\wedge (\vee T (\neg abcdefghijklmnTopqrstuvwxyz1234567890)) b) (\neg c))
+(\leftrightarrow (\wedge (\vee T (\neg abcdefghijklmnopqr\negstuvwxyz1234567890)) b) (\neg c))
