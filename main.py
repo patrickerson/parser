@@ -126,8 +126,6 @@ def formula(input):
   """
   Chama os outros métodos de forma recursiva
 
-
-  
   """
   # Encerra se o buffer está vazio
   if input==[]:
@@ -155,7 +153,7 @@ def formula(input):
 
   # Verifica se o primeiro caracter é um abre paren
   # Verifica também se o tamanho da string de entrada é maior do que 1, para que seja possível ler os próximos caracteres
-  if input[0][0] == "(" and len(input[0][0]) > 1:
+  if input[0][0] == "(" and len(input[0]) > 1:
       insert_stack("open_paren")
       open_paren(input[0][1:])
       # checa é uma fórmula binaria ou unaria
@@ -179,7 +177,7 @@ def check_valid(filename):
     x = i.split(" ")
     formula(x)
     if len(stack) == 1 and stack[0] == "formula":
-      print(f"{i} válida")
+      print(f"{i} válido")
     else:
       print(f"{i} inválida")
     stack.clear()
